@@ -32,7 +32,7 @@ title: 快速上手指南
 按以下方式接线：
 
 1. **HDMI**：灵控的 HDMI 公口 → 被控电脑 HDMI 输出口（采集画面）。
-2. **USB Type-C（OTG）**：灵控尾部 OTG 口 → 被控电脑 USB 口（供电 + 模拟键鼠）。
+2. **USB Type-C（OTG）**：灵控侧边 OTG 口 → 被控电脑 USB 口（供电 + 模拟键鼠）。
 3. **网络**（任选其一）：
    - **USB Type-C（网口）** → 管理端电脑（直连，无需路由器）；或
    - **USB Type-C（网口）** → 路由器 / 交换机（有线局域网）；或
@@ -148,6 +148,7 @@ OTG 口同时负责向灵控供电和向被控机注入键鼠信号，请使用�
 | ---------------- | -------------------- | ---------------------------------------------------- |
 | 连接 Wi-Fi       | 左侧栏 → 网络设置    | [用户页面指南](./usage)                              |
 | 修改设备名称     | 系统设置 → 设备名称  | [用户页面指南](./usage)                              |
+| 开启双重验证     | 系统设置 → 安全      | [双重验证（2FA）](./two-factor-authentication)       |
 | 远程访问（外网） | 高级设置 → Tailscale | [Tailscale 远程访问](./advanced-usage/remote-access) |
 | 固件升级         | 系统设置 → 系统更新  | [固件更新](./firmware-update)                        |
 
@@ -210,3 +211,4 @@ OTG 口同时负责向灵控供电和向被控机注入键鼠信号，请使用�
 - [Tailscale 远程访问](./advanced-usage/remote-access) — 外网安全访问
 - [Wake on LAN](./advanced-usage/wake-on-lan) — 远程唤醒被控主机
 - [访问令牌](./access-token) — API 访问与自动化
+- [双重验证（2FA）](./two-factor-authentication) — 为 Web 登录增加验证码保护
